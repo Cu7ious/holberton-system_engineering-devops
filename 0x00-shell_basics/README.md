@@ -10,4 +10,5 @@
 6-firstdirectory 		 // creates a directory named `holberton` in the /tmp/ directory
 7-movethatfile 			 // moves the file `betty` from /tmp/ to /tmp/holberton
 8-firstdelete 			 // deletes the file `betty` from /tmp/holberton
+9-firstdirdeletion 		 // deletes the directory holberton that is in the /tmp directory
 ```
