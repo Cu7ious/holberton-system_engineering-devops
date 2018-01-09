@@ -14,5 +14,6 @@
 10-back 			 // changes the working directory to the previous one (works only via source)
 11-lists 			 // lists all files in the current directory and the parent directory and the /boot directory
 12-file_type			 // write a script that prints the type of the file named `iamafile` (assume that `iamafile` is already there)
-13-symbolic_link 		 // Ceates a symbolic link to /bin/ls, named `__ls__` in the current working directory
+13-symbolic_link 		 // ceates a symbolic link to /bin/ls, named `__ls__` in the current working directory
+14-copy_html 			 // copies .html from CWD to its parent (only copies stuff that didn't exist or newer than in parent)
 ```
