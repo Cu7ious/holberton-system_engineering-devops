@@ -12,5 +12,5 @@
 8-firstdelete 			 // deletes the file `betty` from /tmp/holberton
 9-firstdirdeletion 		 // deletes the directory holberton that is in the /tmp directory
 10-back 			 // changes the working directory to the previous one (works only via source)
-
+11-lists 			 // lists all files in the current directory and the parent directory and the /boot directory
 ```
