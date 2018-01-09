@@ -10,7 +10,8 @@
 6-firstdirectory 		 // creates a directory named `holberton` in the /tmp/ directory
 7-movethatfile 			 // moves the file `betty` from /tmp/ to /tmp/holberton
 8-firstdelete 			 // deletes the file `betty` from /tmp/holberton
-9-firstdirdeletion 		 // deletes the directory holberton that is in the /tmp directory
+9-firstdirdeletion 		 // deletes the directory `holberton` that is in the /tmp directory
 10-back 			 // changes the working directory to the previous one (works only via source)
 11-lists 			 // lists all files in the current directory and the parent directory and the /boot directory
+12-file_type			 // write a script that prints the type of the file named `iamafile` (assume that `iamafile` is already there)
 ```
