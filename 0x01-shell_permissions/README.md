@@ -14,4 +14,5 @@
 11-directories_permissions 	// adds x permission to all subdirectories for everyone without affecting the files
 12-directory_permissions 	// creates a directory called dir_holberton with permissions 751 in the workdir
 13-change_group 		// changes the group owner to `holberton` for the file `hello`
+14-change_owner_and_group 	// changes owner to `betty` and group owner to `holberton` for all files and directories in the workdir
 ```
