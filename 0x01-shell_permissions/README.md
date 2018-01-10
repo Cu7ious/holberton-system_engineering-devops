@@ -1,5 +1,5 @@
 # 0x01. Shell, permissions
 
 ```
-0-iam_betty 		// 
+1-who_am_i 		// prints the effective userid of the current user
 ```
