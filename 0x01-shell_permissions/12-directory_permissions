@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+X -R .
+mkdir -m 751 dir_holberton
