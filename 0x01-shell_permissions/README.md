@@ -6,4 +6,5 @@
 2-groups 		// prints all the groups the current user is part of
 3-new_owner 		// changes the owner of the file `hello` to the user `betty`
 5-execute 		// adds execute permission to the owner of the file `hello`
+6-multiple_permissions  // adds x permission to owner and group owner, and r permission to other users, to the file hello
 ```
