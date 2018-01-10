@@ -15,5 +15,6 @@
 12-directory_permissions 	// creates a directory called dir_holberton with permissions 751 in the workdir
 13-change_group 		// changes the group owner to `holberton` for the file `hello`
 14-change_owner_and_group 	// changes owner to `betty` and group owner to `holberton` for all files and directories in the workdir
-15-symbolic_link_permissions 	// changes the owner and the group owner of the file _hello (symbolic link) to betty:holberton 
+15-symbolic_link_permissions 	// changes the owner and the group owner of the file `_hello` (symbolic link) to betty:holberton 
+16-if_only 			// changes the owner of the file `hello` to `betty` only if it is owned by the user `guillaume`
 ```
