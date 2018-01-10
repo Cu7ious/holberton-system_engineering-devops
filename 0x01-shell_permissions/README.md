@@ -12,4 +12,5 @@
 9-John_Doe 			// sets the mode of the file hello to -rwxr-x-wx
 10-mirror_permissions 		// sets the mode of the file `hello` the same as `olleh’s` mode (files in a workdir)
 11-directories_permissions 	// adds x permission to all subdirectories for everyone without affecting the files
+12-directory_permissions 	// creates a directory called dir_holberton with permissions 751 in the workdir
 ```
