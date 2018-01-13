@@ -15,7 +15,7 @@
 11-directories 		// counts number of dirs with subdirs in cwd (with hidden dirs but without cwd)
 12-newest_files 	// displays the 10 newest files in the current directory
 13-unique 		// takes list of words as input, prints sorted unique occurancies
-14-findthatword
+14-findthatword 	// displays lines containing the pattern “root” from the file /etc/passwd
 15-countthatword
 16-whatsnext
 17-hidethisword
