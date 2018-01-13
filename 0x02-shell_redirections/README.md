@@ -17,8 +17,8 @@
 13-unique 		// takes list of words as input, prints sorted unique occurancies
 14-findthatword 	// displays lines containing the pattern “root” from the file /etc/passwd
 15-countthatword 	// displays the number of lines that contain the pattern "bin" in the file /etc/passwd
-16-whatsnext
-17-hidethisword
+16-whatsnext 		// displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
+17-hidethisword 	
 18-letteronly
 19-AZ
 20-hiago
