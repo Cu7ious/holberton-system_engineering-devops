@@ -14,7 +14,7 @@ lorem ipsum `dolor` sit amet
 8-cwd_state		// writes/overwrites result of the command ls -la into file ls_cwd_content
 9-duplicate_last_line 	// script that duplicates the last line of the file iacta (will be in cwd)
 10-no_more_js 		// deletes all .js files that are present in the cwd recursively
-11-directories
+11-directories 		// counts number of dirs with subdirs in cwd (with hidden dirs but without cwd)
 12-newest_files
 13-unique
 14-findthatword
