@@ -1,7 +1,5 @@
 # 0x02. Shell, I/O Redirections and filters
 
-lorem ipsum `dolor` sit amet
-
 ```
 0-hello_world 		// prints “Hello, World”, followed by a new line to the standard output
 1-confused_smiley 	// displays a confused smiley "(Ôo)'
@@ -16,7 +14,7 @@ lorem ipsum `dolor` sit amet
 10-no_more_js 		// deletes all .js files that are present in the cwd recursively
 11-directories 		// counts number of dirs with subdirs in cwd (with hidden dirs but without cwd)
 12-newest_files 	// displays the 10 newest files in the current directory
-13-unique
+13-unique 		// takes list of words as input, prints sorted unique occurancies
 14-findthatword
 15-countthatword
 16-whatsnext
