@@ -13,7 +13,7 @@ lorem ipsum `dolor` sit amet
 7-file 			// creates file named \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) text Holberton School ending by a new line
 8-cwd_state		// writes/overwrites result of the command ls -la into file ls_cwd_content
 9-duplicate_last_line 	// script that duplicates the last line of the file iacta (will be in cwd)
-10-no_more_js
+10-no_more_js 		// deletes all .js files that are present in the cwd recursively
 11-directories
 12-newest_files
 13-unique
