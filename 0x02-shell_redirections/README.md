@@ -25,4 +25,6 @@
 21-reverse		// reverses its input (rev)
 22-users_and_homes	// displays all users and their home directories, sorted by users
 100-empty_casks 	// finds empty files & dirs in current dir recursively (names only, hidden+, 1 per line, end with newline)
+
+102-acrostic 		// decodes acrostics that use the first letter of each line and adds a newline to the end
 ```
