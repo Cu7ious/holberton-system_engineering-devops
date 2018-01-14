@@ -25,7 +25,19 @@
 21-reverse		// reverses its input (rev)
 22-users_and_homes	// displays all users and their home directories, sorted by users
 100-empty_casks 	// finds empty files & dirs in current dir recursively (names only, hidden+, 1 per line, end with newline)
-
+101-gifs 		// lists all the files with a .gif extension in the current directory and all its sub-directories (look for more below)
 102-acrostic 		// decodes acrostics that use the first letter of each line and adds a newline to the end
 103-the_biggest_fan 	// parses web servers logs in TSV format & displays the top 11 hosts/IPs by frequency (most frequent first)
 ```
+
+## Additional info for 101-gifs
+
+* Hidden files should be listed
+* Only regular files (not directories) should be listed
+* The names of the files should be displayed without their extensions
+* The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, and file Rona should be listed after file jay)
+* One file name per line
+* The listing should end with a new line
+* You are not allowed to use basename, grep, egrep, fgrep or rgrep
+
+## Comments
