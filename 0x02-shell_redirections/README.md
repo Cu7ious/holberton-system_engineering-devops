@@ -27,4 +27,5 @@
 100-empty_casks 	// finds empty files & dirs in current dir recursively (names only, hidden+, 1 per line, end with newline)
 
 102-acrostic 		// decodes acrostics that use the first letter of each line and adds a newline to the end
+103-the_biggest_fan 	// parses web servers logs in TSV format & displays the top 11 hosts/IPs by frequency (most frequent first)
 ```
