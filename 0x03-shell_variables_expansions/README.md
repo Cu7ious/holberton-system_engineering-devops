@@ -9,4 +9,5 @@
 5-local_variables         // lists all local variables and environment variables, and functions
 6-create_local_variable   // creates a new local variable with name BETTY and val Holberton
 7-create_global_variable  // creates a new global variable with name HOLBERTON and val Betty
+8-true_knowledge          // prints result of addition of 128 with value stored in the env var TRUEKNOWLEDGE, followed by a new line
 ```
