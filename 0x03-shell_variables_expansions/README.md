@@ -12,5 +12,5 @@
 8-true_knowledge          // prints result of addition of 128 with value stored in the env var TRUEKNOWLEDGE, followed by a new line
 9-divide_and_rule         // prints result of division of two env vars, POWER & DIVIDE, followed by a new line
 10-love_exponent_breath   // displays the result of BREATH to the power LOVE (env vars, +\n)
-
+11-binary_to_decimal      // converts number from base 2 to base 10 (in:env var BINARY, out: base 10 number)
 ```
