@@ -16,4 +16,5 @@
 12-combinations           // prints all possible combinations of two letters, except oo
 13-print_float            // prints a number with two decimal places (from env var NUM)
 14-decimal_to_hexadecimal // onverts a number from base 10 to base 16 (env var DECIMAL, +\n)
+100-rot13                 // encodes and decodes text using the rot13 encryption
 ```
