@@ -11,4 +11,6 @@
 7-create_global_variable  // creates a new global variable with name HOLBERTON and val Betty
 8-true_knowledge          // prints result of addition of 128 with value stored in the env var TRUEKNOWLEDGE, followed by a new line
 9-divide_and_rule         // prints result of division of two env vars, POWER & DIVIDE, followed by a new line
+10-love_exponent_breath   // displays the result of BREATH to the power LOVE (env vars, +\n)
+
 ```
