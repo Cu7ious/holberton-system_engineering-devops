@@ -15,4 +15,5 @@
 11-binary_to_decimal      // converts number from base 2 to base 10 (in:env var BINARY, out: base 10 number)
 12-combinations           // prints all possible combinations of two letters, except oo
 13-print_float            // prints a number with two decimal places (from env var NUM)
+14-decimal_to_hexadecimal // onverts a number from base 10 to base 16 (env var DECIMAL, +\n)
 ```
