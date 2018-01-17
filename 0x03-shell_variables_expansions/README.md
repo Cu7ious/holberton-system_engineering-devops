@@ -18,4 +18,5 @@
 14-decimal_to_hexadecimal // onverts a number from base 10 to base 16 (env var DECIMAL, +\n)
 100-rot13                 // encodes and decodes text using the rot13 encryption
 101-odd                   // every other line from the input, starting with the first line
+102-water_and_stir        // adds two numbers stored in env vars WATER and STIR & prints result (vars are in base 5, result - in base 8)
 ```
