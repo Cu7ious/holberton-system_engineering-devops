@@ -10,4 +10,5 @@
 6-superstitious_numbers		# Displays numbers and `bad-luck-numbers using `case` statement
 7-clock				# Prints every minute for all 12 hours
 8-for_ls			# Displays the content of the current directory, cuts dashes (if any)
+./9-to_file_or_not_to_file	# Provides information about a file
 ```
