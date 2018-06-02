@@ -14,4 +14,6 @@
 10-fizzbuzz			# FizzBuzz on bash
 100-read_and_cut		# Reads the portion of the passwd file, username:uid:path_to_homedir
 101-tell_the_story_of_passwd	# Prints all the fields IFS (internal field separator)
+102-lets_parse_apache_logs	# Parses the Apache log file
+103-dig_the-data		# Parses the log file in the sophisticated manner
 ```
