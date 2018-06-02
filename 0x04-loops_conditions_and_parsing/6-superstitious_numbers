@@ -2,13 +2,14 @@
 # Displays numbers and `bad-luck-numbers using `case` statement
 
 i=1
-while (( i<=20 )); do
+while (( i <= 20 )); do
+	echo "$i"
+
 	case $i in
 		4)  echo "bad luck from China" ;;
 		9)  echo "bad luck from Japan" ;;
 		17) echo "bad luck from Italy" ;;
-		*)  echo "$i"
 	esac
 
-	i=$((i+1))
+	i=$(( i + 1 ))
 done
