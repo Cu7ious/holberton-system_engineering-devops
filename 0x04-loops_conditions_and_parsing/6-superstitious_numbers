@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays `Holberton School` 10 times and `Hi` on 9th iteration
+# Displays numbers and `bad-luck-numbers using `case` statement
 
 i=1
 while (( i<=20 )); do
