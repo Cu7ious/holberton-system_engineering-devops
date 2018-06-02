@@ -13,4 +13,5 @@
 9-to_file_or_not_to_file	# Provides information about a file
 10-fizzbuzz			# FizzBuzz on bash
 100-read_and_cut		# Reads the portion of the passwd file, username:uid:path_to_homedir
+101-tell_the_story_of_passwd	# Prints all the fields IFS (internal field separator)
 ```
