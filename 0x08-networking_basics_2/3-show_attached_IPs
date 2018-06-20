@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Grabs the IPv4 IP's on the machine
+
+ifconfig | grep "inet " | awk -F'[: ]+' '{ print $4 }'
