@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-# adds redirection line
-$line="location /redirect_me {rewrite ^/redirect_me(.*)$ https://www.youtube.com/watch?v=HLMSC_HGvMI permanent;\n}"
+# Installs the nginx webserver, adds the redirection line
+sudo apt-get update
+sudo apt-get install nginx -y
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+sudo service nginx start
+line="location /redirect_me {rewrite ^/redirect_me(.*)$ https://cu7io.us permanent;\n}"
 sudo sed -i "30i $line" /etc/nginx/sites-available/default
 sudo service nginx restart
