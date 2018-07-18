@@ -1,1 +1,5 @@
 #!/usr/bin/env bash
+# adds redirection line
+$line="location /redirect_me {rewrite ^/redirect_me(.*)$ https://www.youtube.com/watch?v=HLMSC_HGvMI permanent;\n}"
+sudo sed -i "30i $line" /etc/nginx/sites-available/default
+sudo service nginx restart
