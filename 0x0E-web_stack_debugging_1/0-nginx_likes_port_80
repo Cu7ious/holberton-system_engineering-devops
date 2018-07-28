@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script fixes the improperly configured nginx on server
+#
+# It:
+#    removes duplicated 'default' config from the sites-enabled directory
+#    creates a symbolic link to 'nginx/sites-available/default' config file
+#    restarts nginx to make the default config avaliable
+cd /etc/nginx/sites-enabled/
+rm default
+ln -s /etc/nginx/sites-available/default .
+service nginx restart
