@@ -4,6 +4,8 @@ sudo add-apt-repository ppa:vbernat/haproxy-1.7 -y
 sudo apt-get update
 sudo apt install -y haproxy
 
+sudo sed -i "s/ENABLED=0/ENABLED=1/g" /etc/default/haproxy
+
 FRONT="\\\nfrontend http_front\n\tbind *:80\
      	    \n\tmode http\n\tdefault_backend http_back"
 BACK="\\nbackend http_back\n\tbalance roundrobin\
