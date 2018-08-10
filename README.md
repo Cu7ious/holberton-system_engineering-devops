@@ -83,6 +83,11 @@ g#  previous matching search (not whole word) pattern under cursor
 gd  go to definition/first occurrence of the word under cursor
 ```
 
+### Git commits manipulation
+[How to modify a specified commit in git?](https://stackoverflow.com/questions/1186535/how-to-modify-a-specified-commit-in-git)
+[git past](https://stackoverflow.com/questions/3895453/how-do-i-make-a-git-commit-in-the-past)
+
+
 ### Shortcuts to improve your bash &amp; zsh productivity
 
 <table style="font-size: inherit; line-height: 1.4em; margin-bottom: 1em !important; margin-left: 0px !important; margin-right: 0px !important; margin-top: 1em !important; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><thead style="line-height: 1.4em; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
