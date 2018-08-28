@@ -5,8 +5,8 @@
     API URL: https://jsonplaceholder.typicode.com/
     API endpoits: users/, todos
 """
-from sys import argv
 from requests import get
+from sys import argv
 
 
 def list_tasks(employee_id=None):
