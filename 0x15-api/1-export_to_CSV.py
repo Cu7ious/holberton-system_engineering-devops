@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-""" This script returns information about employee's TODO list progress
-    for a given employee ID.
+""" This script writes information about employee's TODO list
+    for a given employee ID to a file in CSV format.
 
     API URL: https://jsonplaceholder.typicode.com/
     API endpoits: users/, todos
+
+    Attributes:
+        @argv[1]: employee_id, int
 """
 import csv
 from requests import get
@@ -11,8 +14,11 @@ from sys import argv
 
 
 def list_tasks(employee_id=None):
-    """ Returns information about employee's TODO list progress
-        for a given employee ID.
+    """ Writes information about employee's TODO list
+        for a given employee ID to a file in CSV format.
+
+        Attributes:
+            @employee_id: ID of the employee, int
     """
     try:
         _id = int(employee_id)
