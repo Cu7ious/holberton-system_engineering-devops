@@ -4,6 +4,9 @@ System engineering and development/opertional part of the program
 ## Misc
 
 [Colors of the terminal](http://www.linux-sxs.org/housekeeping/lscolors.html)
+[Why we need our commits to be signed](https://mikegerwitz.com/papers/git-horror-story.html)
+[CI vs CD vs CD](https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd)
+[CLI improved](https://remysharp.com/2018/08/23/cli-improved)
 
 ### Bulk change file extensions
 
